@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puikoilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">  
+
+  </head>
+  <body>
+    <div class="container-md">
+      <div class="row">
+          <div class="col-md-12">
+          <h1>Puikoilla</h1>
+          </div>
+      </div>
+    </div>
+  <br>
+    <div class="container-md">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Images/lankakerä_1.jpg"><img src="Images/lankakerä_1.jpg" alt="lankakerä" width="40" height="40">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="second.html">Sukan suunnittelu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="third.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Suomalaisia suunnittelijoita
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="third.html#Laitinen">Niina Laitinen</a></li>
+                  <li><a class="dropdown-item" href="third.html#Kalliomäki">Jonna Kalliomäki</a></li>
+                  <li><a class="dropdown-item" href="third.html#Karmitsa">Lumi Karmitsa</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fourth.html">Villasukkajuoksu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </div>
+  
+  <div class="container-md">
+    <div class="row">
+        <div class="col-md-12">
+          <h2>Ota yhteyttä</h2>
+        </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-7 mx-auto">
+      <div class="card mt-2 mx-auto p-4 lomakeväri">
+          <div class="card-body">
+          <div class="container">
+          <form id="contact-form">
+          <div class="controls">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_name">Etunimi *</label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Kirjoita tähän etunimesi *" required="required" data-error="Firstname is required.">  
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_lastname">Sukunimi *</label>
+                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Kirjoita tähän sukunimesi *" required="required" data-error="Lastname is required.">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_email">Sähköpostiosoite *</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Kirjoita tähän sähköpostiosoitteesi *" required="required" data-error="Valid email is required.">
+                          
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_need">Mistä haluaisit lisätietoa *</label>
+                          <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                              <option value="" selected disabled>--Valitse aihe--</option>
+                              <option >Sukkien suunnittelu</option>
+                              <option >Oikean sukkakoon valinta</option>
+                              <option >Villasukkajuoksu</option>
+                              <option >Muu</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="form_message">Viesti *</label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Kirjoita viestisi tähän." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                      </div>
+                    </div>
+
+                  <div class="col-md-12">
+                 <br> 
+                    <button type="submit" class="btn btn-primary lähetä">Lähetä</button>
+                  </div>
+              </div>
+      </div>
+      </form>
+      </div>
+      </div>
+    </div>
+  </div>      
+</div>
+
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Etusivu</a></li>
+      <li class="nav-item"><a href="second.html" class="nav-link px-2 text-muted">Sukan suunnittelu</a></li>
+      <li class="nav-item"><a href="third.html" class="nav-link px-2 text-muted">Suomalaisia suunnittelijoita</a></li>
+      <li class="nav-item"><a href="fourth.html" class="nav-link px-2 text-muted">Villasukkajuoksu</a></li>
+      <li class="nav-item"><a href="form.html" class="nav-link px-2 text-muted">Ota yhteyttä</a></li>
+    </ul>
+    <h5 class="text-center text-muted">Puikoilla</h5>
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    color:black;
+}
+h1{
+    font-size: 75px;
+    background-image: url("../Images/H1tausta.jpg");
+    padding: 20px 20px 125px 20px;
+    text-align: center;
+    color: rgb(20.4, 48.6, 48.6);
+    font-family:cursive;
+    box-shadow:5px 5px 40px 5px rgb(188, 217, 217); 
+    text-shadow:2px 2px 8px rgb(188, 217, 217)
+}
+h2{
+    color: rgb(30.2, 55.7, 55.7);
+    background-color: rgb(188,217,217,0.6);
+    padding:5px;
+    box-shadow:10px 50px 100px 20px rgb(188, 217, 217);
+}
+h3{
+    color: rgb(57.6, 75.3, 75.3);
+    background-color: rgb(188,217,217,0.6);
+    padding:3px;
+}
+h4{
+    color: rgb(92.5, 69.4, 50.2);
+    background-color: rgb(255,236,221);
+    padding:2px;
+}
+h5{
+    font-family:cursive;
+    background-image: url("../Images/h5.jpg");
+    padding: 7px 20px 7px 20px;
+    box-shadow:5px 5px 20px 5px rgb(188, 217, 217);   
+}
+
+#taulukonotsikko {background-color: rgb(255, 241,230)}
+table, th, td {
+    border: 1px solid black;
+
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(226,251,251);
+  }
+
+.lomakeväri {background-color:rgb(255, 236, 221)}
+.lähetä {background-color: rgb(52, 124, 124);
+        border-color:  rgb(52, 124, 124);
+        }
+.lähetä:hover{background-color: rgb(207, 141, 86);
+border-color: rgb(207, 141, 86);
+border-color:  rgb(207, 141, 86);}
+
+.henkilö {border-radius: 50%;}
+.center {
+    text-align: center;
+}
+
+a:link { 
+    transition: all 0.5s linear;
+    color: rgb(52, 124, 124); 
+    } 
+a:hover { 
+    color: rgb(207, 141, 86); 
+    }
+a:visited:hover { 
+    color: rgb(207, 141, 86); 
+    }
+a:visited {
+    color: rgb(69, 165, 69);
+    }
+.kuvahover:hover {
+    opacity: 0.5;
+}
+

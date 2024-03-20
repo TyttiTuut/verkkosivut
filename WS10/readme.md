@@ -1,0 +1,1 @@
+Tämä on Verkkosivujen kehittäminen WS10 työpajan kansio. Tähän tehty kurssin päättötyö omat verkkosivut.  
